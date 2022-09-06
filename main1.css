@@ -82,9 +82,17 @@ h2{
    border-radius: 5px;
 }
 
+
 .col1 img{
 
     border-bottom: #77797b solid 1px;
+    transition: all 0.2s;
+}
+.col1 img:hover{
+
+    width:300px; 
+    height: 300px;
+    
 }
 
 .r1{
