@@ -2,6 +2,7 @@
   text-decoration: none;
   list-style-type: none;
   margin: 0%;
+ 
   
   
 }
@@ -15,7 +16,6 @@
   width: 100%;
   
   
-  
 }
 ul {
   display: flex;
@@ -23,7 +23,7 @@ ul {
   align-items: center;
 }
 ul li a {
-  padding: 15px;
+  padding:15px;
   color:#edd29e;
   transition: background 0, 6s;
 }
@@ -38,19 +38,23 @@ ul li a:hover {
 }
 
 .div1 {
-  position: relative;
+  position: absolute;
   left: 450px;
   top: 180px;
 }
 p {
-  width: 600px;
-  padding: 20px;
+  width: 43%;
+  padding:2%;
   background-color: #101010c4;
-  border-radius: 13px;
+  border-radius: 15px;
   color:#edd29e;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
+  font-size: 100%;
   transition: all 0.3s;
+  position: relative;
+  left: 50px;
+  
+
 }
 p:hover
 {
@@ -58,14 +62,15 @@ p:hover
 }
 
 h1 {
-  padding: 20px;
-  font-size: 46px;
+  padding: 2%;
+  font-size:300%;
   color: #010000c4;
   font-family: sans-serif;
   position: relative;
-  right: -97px;
+  right:-6%;
  
 }
+
 .block1 {
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,6 +103,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .c3 {
@@ -206,7 +212,7 @@ span.fade{
    
 }
 .row4 div img{
-   width: 150px;
+   max-width: 100%;
    height: 50px;
    padding: 30px;}
 
@@ -214,6 +220,7 @@ span.fade{
       color: #77797b;
       font-family: sans-serif;
       font-size: 15px;
+      padding-top: 36px;
       
       }
 
@@ -315,6 +322,7 @@ span.fade{
  
   color:black;
   transition: color 0.3s;
+  
 
 }
 .rw4 h2:hover{
@@ -323,16 +331,17 @@ color: darksalmon;}
 
 .randoma{
 
-  padding: 120px;
+  padding: 12%;
   width: 50%;
   height: 50%;
+  margin-right:20px;
 
 }
 
 .randoma img{
 
-  width: 300px;
-  height: 300px;
+  max-width: 250%;
+  height:250px;
   border: #ff523b solid 0.1px;
   border-style:double;
   
@@ -344,8 +353,10 @@ color: darksalmon;}
   display:flex;
   padding-right: 120px;
   
+  
+  
 }
-
+/*******************media************************************************/
 @media(max-width:384px)
 {
  
@@ -643,5 +654,7 @@ margin: 20px;
 padding: 10px;
 width: 193px;
 }
+
+
 
 }
